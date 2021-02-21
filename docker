@@ -1,0 +1,1 @@
+docker run --name my-running-varnish -v /home/pingjiang/Documents/varnish/default.vcl:/etc/varnish/default.vcl:ro --tmpfs /var/lib/varnish:exec -d -p 8080:80 varnish
